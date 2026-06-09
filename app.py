@@ -1,6 +1,8 @@
 import streamlit as st
 from resume_parser import extract_text
 from ai_analyzer import analyze_resume
+import google.generativeai as genai
+genai.configure(api_key=st.secrets["AQ.Ab8RN6IGZdaIZk53lh9LNJd7m50uIR4Li-Mbw1Va3stq20ylxw"])
 
 st.set_page_config(
     page_title="AI Resume Analyzer",
