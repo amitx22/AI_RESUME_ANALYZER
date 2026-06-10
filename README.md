@@ -179,11 +179,13 @@ The analysis report is displayed to the user.
 The system generates:
 
 - Resume Score (0-100)
+- Ats Score (0-100)
 - Skills Identified
 - Strengths
 - Weaknesses
 - Suggestions for Improvement
 - Suitable Job Roles
+- Interview Preparation Tips
 
 ---
 
